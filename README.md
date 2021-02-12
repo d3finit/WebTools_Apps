@@ -1,7 +1,11 @@
 # WebTools Apps
 
 ## Table of Contents
-1. Versions
+1. [Versions](https://github.com/CodeDude404/WebTools_Apps#versions)
+2. [Installation](https://github.com/CodeDude404/WebTools_Apps#installation)
+3. [Developement Usage](https://github.com/CodeDude404/WebTools_Apps#developement-usage)
+
+****
 ## Versions
 - v1.0-alpha - First version. Changes commited live, may be prone to bugs or errors.
 
