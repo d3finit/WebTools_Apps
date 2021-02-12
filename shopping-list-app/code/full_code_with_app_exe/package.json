@@ -1,0 +1,19 @@
+{
+  "name": "my-electron-app",
+  "version": "0.1.0",
+  "author": "your name",
+  "description": "My Electron app",
+  "main": "js/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron-packager": "^15.2.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "electron": "^11.2.3"
+  },
+  "keywords": [],
+  "license": "ISC"
+}

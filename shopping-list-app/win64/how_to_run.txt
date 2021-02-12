@@ -1,0 +1,1 @@
+To run the app double click on the exe in app/shoppling-list-dev.exe. The app can be pinned to the taskbar or added to the start menu. More information is avlibile at 

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>WebTools: Shopping List</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/Stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="css/w3.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176557446-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-176557446-1');
+  </script>
+
+</head>
+
+<body>
+  <title>WebTools: Shopping List</title> 
+  <div class="topnav" id="myTopnav">
+    <a class="active" href="index.html">Shopping List</a>
+    <a onclick="checkWiFi()" id="wifi">Check internet connection</a>
+
+    <a onclick="document.getElementById('id01').style.display='block'">Info</a>
+
+    
+  <!-- The Modal -->
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id01').style.display='none'"
+          class="w3-button w3-display-topright">&times;</span>
+        <h1>Info</h1>
+        <p>Version: v1.0-dev</p>
+        <p><a class="nav-modal" href="https://github.com/CodeDude404/WebTools.github.io" target="blank">Git Repo (for website)</a></p>
+      </div>
+    </div>
+  </div>
+
+
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <div id="myDIV" class="header">
+    <h2 style="margin:5px" class="stwitch">My Shopping List</h2>
+    <input type="text" id="ToDo" placeholder="Title...">
+    <span onclick="newElement()" class="addBtn" id="MyBtn">Add</span>
+  </div>
+
+  <ul id="myUL">
+    <li>click to check off items</li>
+  </ul>
+
+
+
+
+  <script src="js/renderer.js"></script>
+</body>
+
+</html>
